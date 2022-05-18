@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    tools:context=".HabitosSaludables">
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="@drawable/text_ovalado"
+        android:paddingHorizontal="50dp"
+        android:text="Buenos hábitos"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginBottom="50dp"
+        />
+
+    <Button
+        android:id="@+id/btn_pasear"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        style="?attr/materialButtonOutlinedStyle"
+        app:cornerRadius="40dp"
+        app:strokeColor="@color/pink"
+        android:text="Salir a pasear"
+        android:fontFamily="sans-serif-condensed"
+        android:textAllCaps="false"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/btn_alimento"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        style="?attr/materialButtonOutlinedStyle"
+        app:cornerRadius="40dp"
+        app:strokeColor="@color/pink"
+        android:text="Horario de alimentación"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="25dp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_bano"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        style="?attr/materialButtonOutlinedStyle"
+        app:cornerRadius="40dp"
+        app:strokeColor="@color/pink"
+        android:layout_marginTop="20dp"
+        android:text="Tomar baños"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="25dp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_citas"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        style="?attr/materialButtonOutlinedStyle"
+        app:cornerRadius="40dp"
+        app:strokeColor="@color/pink"
+        android:layout_marginTop="20dp"
+        android:text="Citas recurrentes"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="25dp"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

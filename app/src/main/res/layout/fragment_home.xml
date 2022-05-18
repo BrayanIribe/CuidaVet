@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:columnCount="2"
+        android:paddingHorizontal="60dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/btn_calendario"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/febcalendario1_5"
+            android:backgroundTint="@color/pink"/>
+
+        <Button
+            android:id="@+id/btn_foro"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="end"
+            android:background="@drawable/foro_1foro1_5"
+            android:paddingEnd="60dp" />
+
+        <Button
+            android:id="@+id/btn_entrenamiento"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/entrenamiento_1entrenamiento1_5" />
+
+        <Button
+            android:id="@+id/btn_compras"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/ic_shop"
+            android:paddingEnd="60dp" />
+
+        <Button
+            android:id="@+id/btn_mascotas"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/anadir_mascota_1mascotas1_5" />
+
+        <Button
+            android:id="@+id/btn_telefono"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/emergencia_1emergencia1_5"
+            android:paddingEnd="60dp" />
+
+    </GridLayout>
+
+</LinearLayout>
